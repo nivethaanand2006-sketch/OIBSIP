@@ -1,0 +1,28 @@
+NMAP SCAN RESULTS  -  FILL THIS IN WITH YOUR OWN OUTPUT
+=======================================================
+Target:        <IP of your own VM / localhost>
+Date:          <date>
+Nmap version:  <output of: nmap --version>
+Authorisation: Own machine / VM
+
+-------------------------------------------------------
+1. Basic scan   (nmap <target>)
+-------------------------------------------------------
+<paste the output of scan_output/01_basic_scan.txt here>
+
+-------------------------------------------------------
+2. Service version scan   (nmap -sV <target>)
+-------------------------------------------------------
+<paste the output of scan_output/02_service_version_scan.txt here>
+
+-------------------------------------------------------
+3. OS detection   (nmap -O <target>)
+-------------------------------------------------------
+<paste the output of scan_output/03_os_detection_scan.txt here>
+
+-------------------------------------------------------
+4. Open ports and security analysis
+-------------------------------------------------------
+PORT   SERVICE   WHAT IT DOES                      RISK ASSESSMENT
+<22>   <ssh>     <remote login over encryption>    <low if keys + strong passwords; brute-force target otherwise>
+<...>  <...>     <...>                             <...>

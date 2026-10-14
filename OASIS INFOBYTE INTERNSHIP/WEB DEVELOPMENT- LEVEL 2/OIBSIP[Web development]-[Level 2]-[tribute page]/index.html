@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Icarus — The Boy Who Flew Too Far</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-gradient" id="bgGradient"></div>
+<canvas id="scene-canvas" aria-hidden="true"></canvas>
+
+<div class="page">
+
+  <header class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow-wing">Greek Mythology</p>
+        <h1>Icarus</h1>
+        <p class="tagline">The boy given wings of wax and feathers — and the flight that turned his name into a warning.</p>
+      </div>
+      <div class="painting-stage">
+        <div class="painting-frame" id="paintingFrame">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Herbert_Draper_-_The_Lament_for_Icarus_-_Google_Art_Project.jpg?width=700" alt="The Lament for Icarus, Herbert James Draper, 1898 — the fallen Icarus surrounded by mourning sea nymphs">
+        </div>
+        <p class="painting-caption">The Lament for Icarus, H. J. Draper, 1898</p>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span class="line"></span>SCROLL</div>
+  </header>
+
+  <section class="bio-section">
+    <div class="wrap">
+      <div class="panel panel-light">
+        <p class="section-label">The Tribute</p>
+        <h2>A story kept alive for twenty-five centuries</h2>
+
+        <p>Icarus was never a god, a king, or a warrior — he was a prisoner's son, known to history for a single afternoon of flight. In Greek mythology he was the child of Daedalus, the master craftsman of Athens who had designed the great Labyrinth of Knossos for King Minos of Crete, a maze built to contain the monstrous Minotaur. When Minos discovered that Daedalus had helped Theseus escape that same Labyrinth, he had father and son locked away themselves, shut inside a tower — or by some tellings, the Labyrinth's own walls — with the sea on every side and no ship allowed near the shore.</p>
+
+        <p>Trapped by land and by water, Daedalus turned his genius toward the one route Minos could never guard: the open sky. He gathered feathers of every size, binding the small ones with thread and the larger ones with beeswax, curving each pair into the shape of a bird's wing. He tested his own set first, rising a little off the ground to be sure the design would hold, then fastened a matching pair to his son's shoulders. As he tied the straps, the old stories say his hands trembled and his eyes filled with tears — he knew exactly how fragile his invention was.</p>
+
+        <p>Daedalus gave Icarus a single instruction: fly the middle course. Too low, and the sea's spray would soak the feathers and drag him under; too high, and the sun's heat would loosen the wax that held everything together. For a while Icarus obeyed, following his father's path over the islands of the Aegean. But the sensation of flight overtook him — the freedom of it, after years shut behind stone walls, was intoxicating. He climbed higher, chasing the open sky, until the sun softened the wax past holding. Feather by feather, his wings came apart in the air, and he fell into the sea that would carry his name.</p>
+
+        <p>Daedalus, gliding on and hearing no answer to his calls, found only floating feathers where his son had been. He buried what the water gave back on a nearby island and named the surrounding sea the Icarian Sea in his son's memory — a name that particular stretch of water, near modern-day Ikaria, has carried ever since. Icarus never ruled a kingdom or won a battle, but his fall did something few myths achieve: it gave an entire civilization a shorthand for the exact moment ambition outruns caution, still spoken today as "flying too close to the sun."</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline-section">
+    <div class="wrap">
+      <div class="panel panel-dark timeline-head">
+        <p class="section-label">The Myth, Step by Step</p>
+        <h2>From the Labyrinth to the Icarian Sea</h2>
+        <p class="timeline-intro">The story survives in several ancient versions — most fully in Ovid's <em>Metamorphoses</em> — but its arc has stayed remarkably consistent for over two thousand years. Tilt your cursor across each card below.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="tilt-stage"><div class="t-item" data-tilt>
+          <p class="t-num">I.</p>
+          <h3>Imprisonment at Knossos</h3>
+          <p>After Theseus escapes the Labyrinth with the help of Ariadne's thread of string, King Minos suspects Daedalus gave away the maze's secret. He has Daedalus and young Icarus sealed away — in a tower by the sea in most accounts, or inside the Labyrinth itself in others.</p>
+        </div></div>
+
+        <div class="tilt-stage"><div class="t-item" data-tilt>
+          <p class="t-num">II.</p>
+          <h3>Daedalus invents the wings</h3>
+          <p>With every ship and shoreline watched, Daedalus reasons that Minos "rules the land and sea, but not the air." He collects feathers, binding small ones with linen thread and larger ones with beeswax, and shapes two pairs of wings — one for himself, one for his son.</p>
+        </div></div>
+
+        <div class="tilt-stage"><div class="t-item" data-tilt>
+          <p class="t-num">III.</p>
+          <h3>The warning</h3>
+          <p>Before takeoff, Daedalus fastens the wings to Icarus's shoulders and gives him careful instructions: keep to the middle height. Fly too near the sea and the damp will weigh the feathers down; fly too near the sun and its heat will melt the wax apart.</p>
+        </div></div>
+
+        <div class="tilt-stage"><div class="t-item" data-tilt>
+          <p class="t-num">IV.</p>
+          <h3>The flight from Crete</h3>
+          <p>Father and son lift off the tower and head out over the Aegean, Daedalus leading and glancing back to check on his son. Below them, fishermen, shepherds, and ploughmen stop their work, certain they are watching gods pass overhead.</p>
+        </div></div>
+
+        <div class="tilt-stage"><div class="t-item" data-tilt>
+          <p class="t-num">V.</p>
+          <h3>The fall</h3>
+          <p>Exhilarated by the height and freedom of flight, Icarus drifts away from his father's path and climbs toward the sun. The wax binding his feathers softens, then gives way entirely. He plunges into the sea near the island later called Icaria, and drowns.</p>
+        </div></div>
+
+        <div class="tilt-stage"><div class="t-item" data-tilt>
+          <p class="t-num">VI.</p>
+          <h3>A name that outlived him</h3>
+          <p>Daedalus recovers his son's body and buries him on the nearest island. He names the surrounding waters the Icarian Sea in his memory — a stretch of the Aegean that still carries the name today, alongside the Greek island of Ikaria.</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <div class="wrap">
+      <div class="panel panel-dark">
+        <span class="quote-mark" aria-hidden="true">"</span>
+        <blockquote>Icarus, where art thou? In what spot shall I seek thee, Icarus?</blockquote>
+        <p class="quote-cite">— Daedalus's lament, from Ovid's <em>Metamorphoses</em> (trans. Henry T. Riley, 1851)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts-section">
+    <div class="wrap">
+      <div class="panel panel-light facts-head">
+        <p class="section-label">Beyond the Fall</p>
+        <h2>Facts from the wider myth</h2>
+        <p class="facts-hint">Hover or tap a card to flip it.</p>
+      </div>
+
+      <div class="facts-grid">
+        <div class="flip" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front"><h3>His father's other feat</h3><p>What else was Daedalus known for?</p><span class="flip-cue">FLIP →</span></div>
+            <div class="flip-back"><h3>Master builder</h3><p>Daedalus was already famous before the wings — he designed the Labyrinth of Knossos and, in some accounts, invented tools like the saw and the axe.</p></div>
+          </div>
+        </div>
+
+        <div class="flip" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front"><h3>The Icarian Sea</h3><p>Did his name survive on any maps?</p><span class="flip-cue">FLIP →</span></div>
+            <div class="flip-back"><h3>Still on the map</h3><p>The waters southwest of Samos, near the Greek island of Ikaria, are still named for him in both ancient and modern Greek geography.</p></div>
+          </div>
+        </div>
+
+        <div class="flip" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front"><h3>A cousin's revenge</h3><p>Why was Daedalus really on Crete?</p><span class="flip-cue">FLIP →</span></div>
+            <div class="flip-back"><h3>An older crime</h3><p>Some versions link Daedalus's exile to an earlier act: he had thrown his gifted nephew, Talos, from the Acropolis out of jealousy — the reason he first fled Athens for Crete.</p></div>
+          </div>
+        </div>
+
+        <div class="flip" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front"><h3>Painted for centuries</h3><p>Who else has told this story?</p><span class="flip-cue">FLIP →</span></div>
+            <div class="flip-back"><h3>An enduring image</h3><p>Artists from Pieter Bruegel the Elder to Henri Matisse and Herbert Draper — whose 1898 painting appears above — have returned to the fall again and again.</p></div>
+          </div>
+        </div>
+
+        <div class="flip" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front"><h3>An idiom that stuck</h3><p>Where do we still hear his story?</p><span class="flip-cue">FLIP →</span></div>
+            <div class="flip-back"><h3>Everyday warning</h3><p>"Flying too close to the sun" entered everyday English as a warning against overreach — used for everything from ancient hubris to modern business collapses.</p></div>
+          </div>
+        </div>
+
+        <div class="flip" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front"><h3>Two lessons, not one</h3><p>Was the myth only about pride?</p><span class="flip-cue">FLIP →</span></div>
+            <div class="flip-back"><h3>Balance, not just caution</h3><p>Daedalus warned against flying too low as well as too high. The myth is as much about the danger of timidity as it is about the danger of pride.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="panel panel-dark">
+      <p class="footer-name">Icarus</p>
+      <p>A tribute page built around a story first told over two thousand years ago.<br>
+      Painting: <em>The Lament for Icarus</em>, Herbert James Draper, 1898 — public domain, via Wikimedia Commons.</p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

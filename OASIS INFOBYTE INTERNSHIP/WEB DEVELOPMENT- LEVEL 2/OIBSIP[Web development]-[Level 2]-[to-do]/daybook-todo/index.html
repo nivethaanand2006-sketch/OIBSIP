@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daybook — Task List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Daybook</h1>
+    <span class="date-stamp" id="todayStamp"></span>
+  </header>
+
+  <form class="composer" id="composer">
+    <input type="text" id="taskInput" placeholder="Write down what needs doing…" autocomplete="off" maxlength="200">
+    <button type="submit">Add task</button>
+  </form>
+
+  <div class="columns">
+    <section>
+      <div class="col-head">
+        <h2>Pending</h2>
+        <span class="count pending-count" id="pendingCount">0 pending</span>
+      </div>
+      <ul class="tasks" id="pendingList"></ul>
+    </section>
+    <section>
+      <div class="col-head">
+        <h2>Completed</h2>
+        <span class="count completed-count" id="completedCount">0 completed</span>
+      </div>
+      <ul class="tasks" id="completedList"></ul>
+    </section>
+  </div>
+
+  <footer>Saved automatically in this browser.</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

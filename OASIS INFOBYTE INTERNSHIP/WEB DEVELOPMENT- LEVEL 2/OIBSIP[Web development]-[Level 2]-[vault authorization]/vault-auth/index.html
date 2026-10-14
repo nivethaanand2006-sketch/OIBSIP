@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vault — Sign In</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frame">
+  <div class="brand">
+    <div class="mark"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></div>
+    <h1>Vault</h1>
+  </div>
+
+  <!-- LOGIN VIEW -->
+  <div class="view active" id="view-login">
+    <div class="card">
+      <h2>Sign in</h2>
+      <p class="sub">Enter your credentials to reach your dashboard.</p>
+      <form id="loginForm" novalidate>
+        <label for="loginUser">Username or email</label>
+        <input type="text" id="loginUser" autocomplete="username">
+        <div class="field-error" id="loginUserErr"></div>
+
+        <label for="loginPass">Password</label>
+        <input type="password" id="loginPass" autocomplete="current-password">
+        <div class="field-error" id="loginPassErr"></div>
+
+        <div class="msg" id="loginMsg"></div>
+        <button class="primary" type="submit">Log in</button>
+      </form>
+      <div class="switch">No account yet? <a id="toRegister">Register</a></div>
+    </div>
+  </div>
+
+  <!-- REGISTER VIEW -->
+  <div class="view" id="view-register">
+    <div class="card">
+      <h2>Create an account</h2>
+      <p class="sub">Set a username and a password to protect your dashboard.</p>
+      <form id="registerForm" novalidate>
+        <label for="regUser">Username or email</label>
+        <input type="text" id="regUser" autocomplete="username">
+        <div class="field-error" id="regUserErr"></div>
+
+        <label for="regPass">Password</label>
+        <input type="password" id="regPass" autocomplete="new-password">
+        <div class="hint">At least 8 characters, including 1 number.</div>
+        <div class="field-error" id="regPassErr"></div>
+
+        <label for="regPass2">Confirm password</label>
+        <input type="password" id="regPass2" autocomplete="new-password">
+        <div class="field-error" id="regPass2Err"></div>
+
+        <div class="msg" id="regMsg"></div>
+        <button class="primary" type="submit">Register</button>
+      </form>
+      <div class="switch">Already have an account? <a id="toLogin">Log in</a></div>
+    </div>
+  </div>
+
+  <!-- DASHBOARD VIEW -->
+  <div class="view" id="view-dashboard">
+    <div class="dash-card">
+      <div class="dash-top">
+        <div>
+          <p class="eyebrow">Welcome back</p>
+          <h2 id="dashName">—</h2>
+        </div>
+        <div class="avatar" id="dashAvatar">—</div>
+      </div>
+      <div class="dash-meta">
+        <div class="row"><span>Account created</span><span id="dashCreated">—</span></div>
+        <div class="row"><span>Current session started</span><span id="dashSession">—</span></div>
+      </div>
+      <button class="logout" id="logoutBtn" type="button">Log out</button>
+    </div>
+    <footer class="note">You're on a protected page — it only loads while your session is active.</footer>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

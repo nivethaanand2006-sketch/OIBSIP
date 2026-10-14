@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 91 61" font-family="Poppins, 'Segoe UI', Arial, sans-serif">
+  <rect width="91" height="61" fill="#0E3B43"/>
+  <circle cx="17" cy="17" r="6.91" fill="none" stroke="#FFC93C" stroke-width="1.18"/><line x1="18.54" y1="17.89" x2="22.64" y2="20.26" stroke="#F5F7F2" stroke-width="0.49" stroke-linecap="round"/><line x1="17.00" y1="18.78" x2="17.00" y2="23.51" stroke="#F5F7F2" stroke-width="0.49" stroke-linecap="round"/><line x1="15.46" y1="17.89" x2="11.36" y2="20.26" stroke="#F5F7F2" stroke-width="0.49" stroke-linecap="round"/><line x1="15.46" y1="16.11" x2="11.36" y2="13.74" stroke="#F5F7F2" stroke-width="0.49" stroke-linecap="round"/><line x1="17.00" y1="15.22" x2="17.00" y2="10.49" stroke="#F5F7F2" stroke-width="0.49" stroke-linecap="round"/><line x1="18.54" y1="16.11" x2="22.64" y2="13.74" stroke="#F5F7F2" stroke-width="0.49" stroke-linecap="round"/><polygon points="19.17,17.00 18.09,18.88 15.91,18.88 14.83,17.00 15.91,15.12 18.09,15.12" fill="#FFC93C"/><circle cx="17" cy="17" r="0.79" fill="#0E3B43"/>
+  <text x="9" y="40" font-size="5.6" font-weight="700" fill="#F5F7F2">Aarav Menon</text>
+  <text x="9" y="45.5" font-size="3" font-weight="500" fill="#FFC93C">Lead Mobile Mechanic</text>
+  <text x="9" y="52" font-size="2.6" font-weight="400" fill="#F5F7F2">Spoke &amp; Wrench</text>
+</svg>

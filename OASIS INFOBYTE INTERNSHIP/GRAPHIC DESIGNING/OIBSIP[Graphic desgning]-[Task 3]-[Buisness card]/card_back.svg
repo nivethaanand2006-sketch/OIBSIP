@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 91 61" font-family="Poppins, 'Segoe UI', Arial, sans-serif">
+  <rect width="91" height="61" fill="#F5F7F2"/>
+  <rect x="0" y="0" width="5" height="61" fill="#0E3B43"/>
+  <text x="12" y="16" font-size="3.4" font-weight="700" fill="#0E3B43">Get in touch</text>
+  <line x1="12" y1="19" x2="24" y2="19" stroke="#FFC93C" stroke-width="0.8"/>
+  <text x="12" y="27" font-size="2.9" font-weight="400" fill="#14181B">+91 00000 00000</text>
+  <text x="12" y="32.5" font-size="2.9" font-weight="400" fill="#14181B">aarav@spokeandwrench.example</text>
+  <text x="12" y="38" font-size="2.9" font-weight="400" fill="#14181B">www.spokeandwrench.example</text>
+  <text x="12" y="46" font-size="2.9" font-weight="500" fill="#0E3B43">Instagram  @spokeandwrench</text>
+  <text x="12" y="51" font-size="2.9" font-weight="500" fill="#0E3B43">X  @spokewrench</text>
+</svg>

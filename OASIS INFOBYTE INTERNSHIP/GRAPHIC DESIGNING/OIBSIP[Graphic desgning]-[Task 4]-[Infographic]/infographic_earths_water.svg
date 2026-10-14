@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2000" viewBox="0 0 800 2000" font-family="Poppins, 'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="2000" fill="#FFFFFF"/>
+  <!-- Title -->
+  <rect width="800" height="330" fill="#0B2545"/>
+  <path transform="translate(690 150) scale(1.5)" d="M0 -60 C 40 -10, 50 20, 30 45 C 12 66, -12 66, -30 45 C -50 20, -40 -10, 0 -60Z" fill="#4FC1E9"/>
+  <text x="60" y="130" font-size="64" font-weight="700" fill="#FFFFFF">Where is</text>
+  <text x="60" y="205" font-size="64" font-weight="700" fill="#FFFFFF">Earth's water?</text>
+  <text x="60" y="270" font-size="26" font-weight="400" fill="#4FC1E9">Five facts about the water on our planet</text>
+
+  <!-- 1: surface -->
+  <text x="60" y="420" font-size="30" font-weight="700" fill="#0B2545">1. Most of the surface is water</text>
+  <circle cx="200" cy="580" r="90" fill="none" stroke="#EAF6FB" stroke-width="34"/><circle cx="200" cy="580" r="90" fill="none" stroke="#13589A" stroke-width="34" stroke-dasharray="401.5 565.5" transform="rotate(-90 200 580)"/>
+  <text x="200" y="595" font-size="42" font-weight="700" fill="#0B2545" text-anchor="middle">71%</text>
+  <text x="340" y="560" font-size="26" fill="#0B2545">of Earth's surface is covered</text>
+  <text x="340" y="596" font-size="26" fill="#0B2545">by water. Land makes up</text>
+  <text x="340" y="632" font-size="26" fill="#0B2545">the other 29%.</text>
+
+  <!-- 2: salt vs fresh -->
+  <text x="60" y="790" font-size="30" font-weight="700" fill="#0B2545">2. Almost all of it is salty</text>
+  <text x="60" y="838" font-size="24" font-weight="600" fill="#0B2545">Salt water (oceans and seas)</text><text x="740" y="838" font-size="24" font-weight="700" fill="#13589A" text-anchor="end">about 97%</text><rect x="60" y="850" width="680" height="26" rx="13" fill="#EAF6FB"/><rect x="60" y="850" width="659.6" height="26" rx="13" fill="#13589A"/>
+  <text x="60" y="918" font-size="24" font-weight="600" fill="#0B2545">Fresh water</text><text x="740" y="918" font-size="24" font-weight="700" fill="#13589A" text-anchor="end">about 3%</text><rect x="60" y="930" width="680" height="26" rx="13" fill="#EAF6FB"/><rect x="60" y="930" width="26.0" height="26" rx="13" fill="#4FC1E9"/>
+
+  <!-- 3: where freshwater is -->
+  <text x="60" y="1060" font-size="30" font-weight="700" fill="#0B2545">3. Most fresh water is locked away</text>
+  <text x="60" y="1118" font-size="24" font-weight="600" fill="#0B2545">Ice caps and glaciers</text><text x="740" y="1118" font-size="24" font-weight="700" fill="#13589A" text-anchor="end">about 69%</text><rect x="60" y="1130" width="680" height="26" rx="13" fill="#EAF6FB"/><rect x="60" y="1130" width="469.2" height="26" rx="13" fill="#13589A"/>
+  <text x="60" y="1198" font-size="24" font-weight="600" fill="#0B2545">Groundwater</text><text x="740" y="1198" font-size="24" font-weight="700" fill="#13589A" text-anchor="end">about 30%</text><rect x="60" y="1210" width="680" height="26" rx="13" fill="#EAF6FB"/><rect x="60" y="1210" width="204.0" height="26" rx="13" fill="#4FC1E9"/>
+  <text x="60" y="1278" font-size="24" font-weight="600" fill="#0B2545">Lakes, rivers and other surface water</text><text x="740" y="1278" font-size="24" font-weight="700" fill="#13589A" text-anchor="end">about 1%</text><rect x="60" y="1290" width="680" height="26" rx="13" fill="#EAF6FB"/><rect x="60" y="1290" width="26.0" height="26" rx="13" fill="#0B2545"/>
+
+  <!-- 4: human body -->
+  <rect x="0" y="1370" width="800" height="270" fill="#EAF6FB"/>
+  <text x="60" y="1430" font-size="30" font-weight="700" fill="#0B2545">4. We are mostly water too</text>
+  <circle cx="180" cy="1540" r="62" fill="none" stroke="#FFFFFF" stroke-width="26"/><circle cx="180" cy="1540" r="62" fill="none" stroke="#13589A" stroke-width="26" stroke-dasharray="233.7 389.6" transform="rotate(-90 180 1540)"/>
+  <text x="180" y="1553" font-size="30" font-weight="700" fill="#0B2545" text-anchor="middle">60%</text>
+  <text x="300" y="1520" font-size="26" fill="#0B2545">of an adult's body weight</text>
+  <text x="300" y="1556" font-size="26" fill="#0B2545">is water, which is why we</text>
+  <text x="300" y="1592" font-size="26" fill="#0B2545">need to drink every day.</text>
+
+  <!-- 5: takeaway -->
+  <text x="60" y="1730" font-size="30" font-weight="700" fill="#0B2545">5. What it means</text>
+  <path transform="translate(120 1840) scale(0.8)" d="M0 -60 C 40 -10, 50 20, 30 45 C 12 66, -12 66, -30 45 C -50 20, -40 -10, 0 -60Z" fill="#13589A"/><path transform="translate(200 1840) scale(0.8)" d="M0 -60 C 40 -10, 50 20, 30 45 C 12 66, -12 66, -30 45 C -50 20, -40 -10, 0 -60Z" fill="#13589A"/><path transform="translate(280 1840) scale(0.8)" d="M0 -60 C 40 -10, 50 20, 30 45 C 12 66, -12 66, -30 45 C -50 20, -40 -10, 0 -60Z" fill="#4FC1E9"/>
+  <text x="350" y="1830" font-size="26" fill="#0B2545">Only a tiny share of Earth's</text>
+  <text x="350" y="1866" font-size="26" fill="#0B2545">water is easy for people to</text>
+  <text x="350" y="1902" font-size="26" fill="#0B2545">use, so saving it matters.</text>
+
+  <text x="60" y="1970" font-size="17" fill="#5B6B7B">Source: USGS Water Science School (usgs.gov/water-science-school). Figures rounded.</text>
+</svg>
