@@ -4,7 +4,7 @@
 import os
 import requests
 
-API_KEY = os.environ.get("OWM_API_KEY", "ec2f55f4161d5627980cf743a27c7c67")
+API_KEY = os.environ.get("OWM_API_KEY", "")
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 
